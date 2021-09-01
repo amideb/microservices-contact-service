@@ -1,10 +1,12 @@
 package com.debrup.microservicescontactservice.service;
 
 import com.debrup.microservicescontactservice.entity.Contact;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
+@Service
 public class ContactServiceImpl implements ContactService{
 
     //fake list of contacts
