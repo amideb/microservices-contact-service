@@ -19,3 +19,4 @@ The following guides illustrate how to use some features concretely:
 
 ### contact-service
 -       port 9002
+-       http://localhost:9002/api/contact/user/1111
